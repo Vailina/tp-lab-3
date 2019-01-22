@@ -7,10 +7,10 @@ using namespace std;
 string month[12] = { "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december" };
 string weekday[7] = { "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday" };
 
-	DateTime(){
+	DateTime::DateTime(){
 		t = time(0);
 	}
-	DateTime(int day, int month, int year){
+	DateTime::DateTime(int day, int month, int year){
 		struct tm * timeinfo;
 		time(&t);
 		timeinfo = localtime(&t);
@@ -19,7 +19,7 @@ string weekday[7] = { "sunday", "monday", "tuesday", "wednesday", "thursday", "f
 		timeinfo->tm_mday = day;
 		t = mktime(timeinfo);
 	}
-	DateTime(const DateTime & DT){
+	DateTime::DateTime(const DateTime & DT){
 		t = DT.t;
 	}
 	string DateTime::getString(){
