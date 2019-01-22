@@ -6,12 +6,12 @@
 
 using namespace std;
 
-	Circle(){
+	Circle::Circle(){
 		radius = -1;
 		ference = -1;
 		area = -1;
 	}
-	Circle(double r){
+	Circle::Circle(double r){
 		setRadius(r);
 	}
 	void Circle::setRadius(double R){
