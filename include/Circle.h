@@ -12,11 +12,11 @@ private:
 public:
 	Circle();
 	Circle(double);
-	void Circle::setRadius(double);
-	void Circle::setFerence(double);
-	void Circle::setArea(double);
-	double Circle::getRadius();
-	double Circle::getFerence();
-	double Circle::getArea();
+	void setRadius(double);
+	void setFerence(double);
+	void setArea(double);
+	double getRadius();
+	double getFerence();
+	double getArea();
 };
-endif;
+#endif
