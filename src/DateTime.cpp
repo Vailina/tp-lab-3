@@ -26,7 +26,7 @@ string weekday[7] = { "sunday", "monday", "tuesday", "wednesday", "thursday", "f
 		tm* T = localtime(&t);
 		string date;
 		if (T->tm_mday<10) date="0";
-		date+ = to_string(T->tm_mday) + " " + month[T->tm_mon] + " " + to_string(T->tm_year + 1900) + ", " + weekday[T->tm_wday];
+		date+= to_string(T->tm_mday) + " " + month[T->tm_mon] + " " + to_string(T->tm_year + 1900) + ", " + weekday[T->tm_wday];
 		t = time(0);
 		return date;
 	}
