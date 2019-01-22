@@ -13,12 +13,12 @@ public:
 	DateTime();
 	DateTime(int, int, int);
 	DateTime(DateTime& );
-	string DateTime::getString();
-	string DateTime::getToday();
-	string DateTime::getYesterday();
-	string DateTime::getTomorrow();
-	string DateTime::getFuture(unsigned int);
-	string DateTime::getPast(unsigned int);
-	int DateTime::calcDifference(DateTime&);
+	string getString();
+	string getToday();
+	string getYesterday();
+	string getTomorrow();
+	string getFuture(unsigned int);
+	string getPast(unsigned int);
+	int calcDifference(DateTime&);
 };
-endif;
+#endif
