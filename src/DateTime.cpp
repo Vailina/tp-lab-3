@@ -48,7 +48,7 @@ string weekday[7] = { "sunday", "monday", "tuesday", "wednesday", "thursday", "f
 		t -= N * 86400;
 		return getString();
 	} //возвращение даты через N дней в прошлом;
-	int DateTime::calcDifference(DateTime& data){
+	int DateTime::getDifference(DateTime& data){
 		int N = abs((this->t)-data.t ) / 86400;
 		return N;
 	} //для расчёта разницы(в днях) между двумя датами
