@@ -19,7 +19,7 @@ string weekday[7] = { "sunday", "monday", "tuesday", "wednesday", "thursday", "f
 		timeinfo->tm_mday = day;
 		t = mktime(timeinfo);
 	}
-	DateTime::DateTime(const DateTime & DT){
+	DateTime::DateTime(DateTime& DT){
 		t = DT.t;
 	}
 	string DateTime::getString(){
