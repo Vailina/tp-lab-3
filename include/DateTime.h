@@ -19,6 +19,6 @@ public:
 	string getTomorrow();
 	string getFuture(unsigned int);
 	string getPast(unsigned int);
-	int calcDifference(DateTime&);
+	int getDifference(DateTime&);
 };
 #endif
