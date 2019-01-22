@@ -2,7 +2,7 @@
 #include <iomanip> 
 #include <iostream>
 #include "Circle.h"
-# define M_PI           3.1415
+# define M_PI           3.14
 
 using namespace std;
 
