@@ -40,7 +40,7 @@ using namespace std;
 		return ference;
 	}
 	double Circle::getArea(){
-		if (radius!=-1) area =  M_PI*radius*radius;
-		else area = ference*ference / (4*M_PI);
+		if (radius!=-1) area =  M_PI*pow(radius,2);
+		else area = pow(ference,2) / (4*M_PI);
 		return area;
 	}
