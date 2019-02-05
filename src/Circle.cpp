@@ -36,13 +36,11 @@ using namespace std;
 	}
 	double Circle::getFerence(){
 		if (radius!=-1) ference = 2 * M_PI*radius;
-		else ference = 2*sqrt(M_PI*area);
-		ference=ceil(ference*10)/10;
+		else ference = 2*sqrt(M_PI*area);		
 		return ference;
 	}
 	double Circle::getArea(){
 		if (radius!=-1) area =  M_PI*pow(radius,2);
 		else area = pow(ference,2) / (4*M_PI);
-		area=ceil(area*10)/10;
 		return area;
 	}
