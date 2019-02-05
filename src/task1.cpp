@@ -12,6 +12,7 @@ double calcDelta()
 	task1.setRadius(6378100);
 	task1.setFerence(task1.getFerence() + 1);
 	d = task1.getRadius() - 6378100;
+	d=floor(d*100)/100;
 	return  d;
 }
 double calcCost(){
