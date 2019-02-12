@@ -25,6 +25,6 @@ double calcCost(){
 	S = task2.getArea();
 	task2.setRadius(3);
 	S = S - task2.getArea();
-	cost = cost + S * 1000;
+	cost = cost + S * 1000+34.5;
 	return cost;
 }
