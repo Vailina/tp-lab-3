@@ -8,7 +8,6 @@ double calcDelta()
 {
 	Circle task1(6378100);
 	double d;
-
 	task1.setRadius(6378100);
 	task1.setFerence(task1.getFerence() + 1);
 	d = task1.getRadius() - 6378100;
