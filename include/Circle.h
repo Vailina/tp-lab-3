@@ -1,7 +1,7 @@
 #ifndef _CIRCLE_H
 #define _CIRCLE_H_
 #pragma once
-using namespace std;
+
 
 class Circle
 {
