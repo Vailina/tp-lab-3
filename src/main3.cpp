@@ -9,6 +9,6 @@ int main()
 	DateTime dt4(21, 11, 2018);
 	cout << dt1.getTomorrow() << endl;
 	cout << dt2.getTomorrow() << endl;
-	cout << dt4.calcDifference(dt3) << endl;
+	cout << dt4.getDifference(dt3) << endl;
 	return 0;
 }
